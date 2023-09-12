@@ -1,0 +1,16 @@
+Instalar PNPM - npm install -g PNPM
+
+TailwindCSS - Utilitário de classes CSS - https://tailwindcss.com/
+
+Radix UI - Biblioteca de componentes WEB sem estilização. - https://www.radix-ui.com/
+
+Shaden/ui - Blbilioteca de compoentes usando TailwindCSS - https://ui.shadcn.com/
+
+Server Components - Usado no Next.JS. No React não existe este server componentes.
+
+Os componentes do servidor são semelhantes aos componentes do cliente (client components) do React, 
+mas com algumas diferenças importantes. Enquanto os componentes do cliente são renderizados no 
+navegador do usuário, os componentes do servidor são renderizados no servidor antes de serem 
+enviados para o cliente.
+
+Iniciar o projeto em modo rede - npm run dev -- --host
