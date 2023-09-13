@@ -28,3 +28,18 @@ Vai criar o arquivo ".env" que são as variáveis de ambiente e a pasta prisma.
 Migration - Históricos do banco de dados
 
 model - Representa uma tabela no banco de dados
+
+Criar migrate - Após criar os model execute
+
+ - npx prisma migrate dev --name "Create video and prompt"
+
+Será solicitado uma descrição.
+
+Visualizar o banco de dados com o Prisma - npx prisma studio
+
+Para armazenamento de arquivos
+
+- Cloudflare R2 - Não paga por download.
+- Amazon S3 - Paga por download a cada vez que a imagem é exibida no site.
+
+30:00
