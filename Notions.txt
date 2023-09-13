@@ -14,3 +14,17 @@ navegador do usuário, os componentes do servidor são renderizados no servidor 
 enviados para o cliente.
 
 Iniciar o projeto em modo rede - npm run dev -- --host
+
+-- Server --
+
+ORM - Prisma
+
+npm install prisma -D
+
+npx prisma init --datasource-provider sqlite
+
+Vai criar o arquivo ".env" que são as variáveis de ambiente e a pasta prisma.
+
+Migration - Históricos do banco de dados
+
+model - Representa uma tabela no banco de dados
