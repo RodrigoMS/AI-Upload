@@ -37,9 +37,12 @@ Será solicitado uma descrição.
 
 Visualizar o banco de dados com o Prisma - npx prisma studio
 
+fastify/multipart - Upload de arquivos no fastify.
+
+Upload de arquivos com vscode restclient (extensão) - https://github.com/Huachao/vscode-restclient
+
+
 Para armazenamento de arquivos
 
 - Cloudflare R2 - Não paga por download.
 - Amazon S3 - Paga por download a cada vez que a imagem é exibida no site.
-
-30:00
