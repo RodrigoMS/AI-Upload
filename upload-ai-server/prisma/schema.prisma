@@ -1,3 +1,6 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
 generator client {
   provider = "prisma-client-js"
 }
@@ -11,7 +14,7 @@ model Video {
   id            String   @id @default(uuid())
   name          String
   path          String
-  transcription String?
+  transcription String? // A transcrição é opcional (vai ser gerada depois)
   createdAt     DateTime @default(now())
 }
 
